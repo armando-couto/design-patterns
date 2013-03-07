@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Aps_2_Design_Patterns">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Aps_2_Design_Patterns"/>
+        <property name="java-output-path" value="/Aps_2_Design_Patterns/bin"/>
+    </wb-module>
+</project-modules>
