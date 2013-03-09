@@ -10,6 +10,10 @@ public class Taximetro {
 		this.bandeira = bandeira;
 	}
 
+	public Bandeira getBandeira() {
+		return bandeira;
+	}
+
 	public void setBandeira(Bandeira bandeira) {
 		this.bandeira = bandeira;
 	}

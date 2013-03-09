@@ -10,11 +10,9 @@ public class TestaTaximetro {
 
 		Taximetro taximetro = new Taximetro(b1);
 
-		double valor1 = taximetro.calculaValorDaCorrida(10, 20);
-		System.out.println(" Valor da corrida em bandeira 1: " + valor1);
+		System.out.println(" Valor da corrida em bandeira 1: " + taximetro.getBandeira().calculaValorDaCorrida(10, 20));
 		taximetro.setBandeira(b2);
 
-		double valor2 = taximetro.calculaValorDaCorrida(5, 30);
-		System.out.println(" Valor da corrida em bandeira 2: " + valor2);
+		System.out.println(" Valor da corrida em bandeira 2: " + taximetro.getBandeira().calculaValorDaCorrida(5, 30));
 	}
 }
