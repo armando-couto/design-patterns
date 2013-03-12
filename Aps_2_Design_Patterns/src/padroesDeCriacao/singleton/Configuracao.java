@@ -14,7 +14,11 @@ public class Configuracao {
 		this.propriedades.put(" currency - code ", " BRL ");
 	}
 
-	public static Configuracao getInstance() {
+	/**
+	 * Sem synchronized funciona mas se estiver usando um ambiente multi 
+	 * thread pode furar se não tiver synchronized. 
+	 */
+	public static synchronized Configuracao getInstance() {
 		if (Configuracao.instance == null) {
 			Configuracao.instance = new Configuracao();
 		}
